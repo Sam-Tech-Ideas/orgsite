@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
 import Services from "./pages/Services";
+import Projects from "./pages/Projects";
 
 const App = () => {
   AOS.init({
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/projects" element={<Projects/>} />
         </Routes>
       </BrowserRouter>
     </div>
