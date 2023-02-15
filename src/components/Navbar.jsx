@@ -30,7 +30,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className=" w-screen   h-20 text-white z-20  mb-4">
+      <div className=" w-screen   h-20 text-white z-[5000]  mb-4">
         <div className="flex items-center justify-between w-full h-full px-3">
           <div className="flex items-center pt-[40px]  pb-5">
             <img
