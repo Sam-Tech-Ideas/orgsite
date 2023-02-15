@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="text-white  z-20">
       <div className="  flex px-5  md:flex-row flex-col items-center">
         <div
-          // className="lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center"
+           className="lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center"
           // data-aos="fade-down-right"
           // data-aos-easing="linear"
           // data-aos-duration="1500"

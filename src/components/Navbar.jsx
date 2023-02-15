@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between w-full h-full px-3">
           <div className="flex items-center pt-[40px]  pb-5">
             <img
-              src="./axes.png"
+              src="../assets/axes.png"
               alt=""
               height=""
               width=""
