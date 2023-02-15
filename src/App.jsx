@@ -5,7 +5,9 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Aos from 'aos'
 
-
+useEffect (()=>{
+   Aos.init()
+},[])
 
 const App = () => {
   return (
