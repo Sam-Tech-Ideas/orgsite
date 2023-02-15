@@ -22,11 +22,11 @@ const Projects = () => {
                 <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5"></div>
                 <div class="flex-grow">
                   <h2 class="text-gray-300 text-lg title-font font-medium mb-3">
-                    Shooting Stars
+                    SafeRoyal(An online room reservation system)
                   </h2>
                   <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    Blue ottle crucifix vinyl post-ironic four dollar toast
+                    vegaadermy. Gastropub indxgo juice poutine.
                   </p>
                   <a class="mt-3 text-indigo-500 inline-flex items-center">
                     Learn More
