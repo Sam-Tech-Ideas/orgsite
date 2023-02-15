@@ -1,5 +1,6 @@
-import React from 'react'
-import Layout from '../components/Layout';
+import React from "react";
+import { Link } from "react-router-dom";
+import Layout from "../components/Layout";
 
 const Projects = () => {
   return (
@@ -19,46 +20,50 @@ const Projects = () => {
             </div>
             <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-left">
               <div class="flex flex-col mb-10 lg:items-start items-center">
-                <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5"></div>
                 <div class="flex-grow">
                   <h2 class="text-gray-300 text-lg title-font font-medium mb-3">
                     SafeRoyal(An online room reservation system)
                   </h2>
-                  <p class="leading-relaxed text-base">
-                    Blue ottle crucifix vinyl post-ironic four dollar toast
-                    vegaadermy. Gastropub indxgo juice poutine.
+                  <p class="leading-relaxed text-lg">
+                    We developed an online booking system to help university
+                    students book their accommodation in hostels and homestels
+                    in their comfort zone. The system was designed to be
+                    user-friendly, with a simple and intuitive interface that
+                    made the booking process seamless and efficient. The system
+                    allowed students to easily view available rooms, select
+                    their preferred room, and complete the booking process with
+                    a secure payment system.
                   </p>
-                  <a class="mt-3 text-indigo-500 inline-flex items-center">
-                    Learn More
+
+                  <a
+                    class="mt-3 text-indigo-500 "
+                    href="https://www.saferoyal.com"
+                    target="_blank"
+                  >
+                    Visit Website
                   </a>
                 </div>
               </div>
+
               <div class="flex flex-col mb-10 lg:items-start items-center">
-                <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5"></div>
                 <div class="flex-grow">
                   <h2 class="text-gray-300 text-lg title-font font-medium mb-3">
-                    The Catalyzer
+                    LearnWithAxes
                   </h2>
-                  <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                  <p class="leading-relaxed text-lg">
+                    LearnWithAxes is a learning inititative that aims to help
+                    train and equip young people with the skills they need to
+                    succeed in the 21st century.We organize bootcamps during the
+                    holidays to help young people learn new skills and build
+                    their confidence.
                   </p>
-                  <a class="mt-3 text-indigo-500 inline-flex items-center">
-                    Learn More
+                  <a
+                    class="mt-3 text-indigo-500 "
+                    href="https://www.axes-tech.com"
+                    target="_blank"
+                  >
+                    Visit Website
                   </a>
-                </div>
-              </div>
-              <div class="flex flex-col mb-10 lg:items-start items-center">
-                <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5"></div>
-                <div class="flex-grow">
-                  <h2 class="text-gray-300 text-lg title-font font-medium mb-3">
-                    Neptune
-                  </h2>
-                  <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
-                  </p>
-                  <a class="mt-3 text-indigo-500 ">Learn More</a>
                 </div>
               </div>
             </div>
@@ -67,6 +72,6 @@ const Projects = () => {
       </Layout>
     </div>
   );
-}
+};
 
-export default Projects
+export default Projects;
