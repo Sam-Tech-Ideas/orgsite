@@ -88,7 +88,7 @@ const Navbar = () => {
           >
             <div className="flex items-center justify-between w-full text-white">
               <img
-                src="./axes.png"
+                src="../assets/axes.png"
                 alt=""
                 height=""
                 width=""
