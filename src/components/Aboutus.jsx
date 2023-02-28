@@ -17,12 +17,7 @@ const Aboutus = () => {
                 was founded in 2022 with a mission to provide a more
                 customer-centric approach to digital marketing and design.
               </p>
-              <p class="mb-8 leading-relaxed text-lg py-2">
-                At Zap Technologies, we're passionate about using digital
-                innovation to transform businesses and drive growth. Our agency
-                was founded in 2022 with a mission to provide a more
-                customer-centric approach to digital marketing and design.
-              </p>
+             
             </div>
             <img
               alt="ecommerce"
