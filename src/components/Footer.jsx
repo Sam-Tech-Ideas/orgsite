@@ -111,7 +111,7 @@ const Footer = () => {
             <img src="./assets/axes.png" alt="" className="w-40 h-40" />
           </a>
           <p class="text-xl text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2023 Zap Technology
+            © 2024 Zap Technology
           </p>
           <p className="p-2 text-xl"> Prvacy Policy</p>
           <p className="p-2 text-xl">Support</p>
